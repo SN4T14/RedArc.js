@@ -1,6 +1,6 @@
 {
   "name": "gonewilder.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js rewrite of 4pr0n's Gonewilder Python script",
   "main": "gonewilder.js",
   "dependencies": {

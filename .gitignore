@@ -26,3 +26,7 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# Config files that shouldn't be committed
+subreddits.txt
+users.txt
