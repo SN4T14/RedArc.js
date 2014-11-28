@@ -1,0 +1,25 @@
+{
+  "name": "gonewilder.js",
+  "version": "0.1.0",
+  "description": "Node.js rewrite of 4pr0n's Gonewilder Python script",
+  "main": "gonewilder.js",
+  "dependencies": {
+    "mkdirp": "^0.5.0",
+    "reddit-stream": "^1.1.1",
+    "escapeshellarg": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SN4T14/gonewilder.js.git"
+  },
+  "author": "SN4T14",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/SN4T14/gonewilder.js/issues"
+  },
+  "homepage": "https://github.com/SN4T14/gonewilder.js"
+}
