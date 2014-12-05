@@ -1,0 +1,12 @@
+imgur:
+    regex: ^(https?:\/\/)?(i\.)?imgur\.com\/[a-zA-Z0-9]*\..*$
+    executionFormat: "wget -P {destinationFolder} {link}"
+imguralbum:
+    regex: ^(https?:\/\/)?imgur\.com\/(gallery|a)\/.*$
+    executionFormat: "./scripts/imguralbum/imgur.py {link} {destinationFolder}"
+imgurnondirect:
+    regex: ^(https?:\/\/)?imgur\.com\/[a-zA-Z0-9]*$
+    executionFormat: "./scripts/imgur/imgur.sh {destinationFolder} {link}"
+vidble:
+    regex: ^(https?:\/\/)?vidble.com\/.*$
+    executionFormat: "./scripts/vidble/vidble.sh {link} {destinationFolder}"
