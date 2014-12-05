@@ -6,7 +6,7 @@ var fs = require('fs');
 var util = require('util');
 var moment = require('moment');
 
-var post_stream = new redditStream('posts', 'all', 'RedArc.js/0.2.0 by /u/SN4T14'); // Monitor posts on /r/all because keeping up with it is possible, and lets you check all users every 2 seconds instead of having to spend 2*numUsers seconds manually looping through all users.
+var post_stream = new redditStream('posts', 'all', 'RedArc.js/0.2.1 by /u/SN4T14'); // Monitor posts on /r/all because keeping up with it is possible, and lets you check all users every 2 seconds instead of having to spend 2*numUsers seconds manually looping through all users.
 
 var usersToArchive = []; // Don't manually add users to this, add them to users.txt!
 var subredditsToArchive = []; // Don't manually add subreddits to this, add them to subreddits.txt!
