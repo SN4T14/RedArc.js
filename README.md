@@ -15,7 +15,8 @@ Optional:
 Install dependencies
 ====================
 
-Install Node by following [this guide,](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager) and clone the git repo, or download [the ZIP file](https://github.com/SN4T14/RedArc.js/archive/master.zip) and extract it, then run these two commands:
+1. Install Python (`sudo apt-get install python` on Debian-based OSes, Google it for others)
+2. Install Node by following [this guide,](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager) and clone the git repo, or download [the ZIP file](https://github.com/SN4T14/RedArc.js/archive/master.zip) and extract it, then run these two commands:
 
 ```
 cd RedArc.js/
