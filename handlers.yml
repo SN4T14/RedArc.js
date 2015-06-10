@@ -1,42 +1,42 @@
 imgurgifv:
-	regex: ^(https?:\/\/)?(i\.)?imgur\.com\/[a-zA-Z0-9]*\.gifv?$
-	executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
+    regex: ^(https?:\/\/)?(i\.)?imgur\.com\/[a-zA-Z0-9]*\.gifv?$
+    executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
 imgur:
-	regex: ^(https?:\/\/)?(i\.)?imgur\.com\/[a-zA-Z0-9]*\..*$
-	executionFormat: "wget -P {destinationFolder} {link}"
+    regex: ^(https?:\/\/)?(i\.)?imgur\.com\/[a-zA-Z0-9]*\..*$
+    executionFormat: "wget -P {destinationFolder} {link}"
 imguralbum:
-	regex: ^(https?:\/\/)?imgur\.com\/(gallery|a)\/.*$
-	executionFormat: "./scripts/imguralbum/imgur.py {link} {destinationFolder}"
+    regex: ^(https?:\/\/)?imgur\.com\/(gallery|a)\/.*$
+    executionFormat: "./scripts/imguralbum/imgur.py {link} {destinationFolder}"
 imgurnondirect:
-	regex: ^(https?:\/\/)?imgur\.com\/[a-zA-Z0-9]*$
-	executionFormat: "./scripts/imgur/imgur.sh {destinationFolder} {link}"
+    regex: ^(https?:\/\/)?imgur\.com\/[a-zA-Z0-9]*$
+    executionFormat: "./scripts/imgur/imgur.sh {destinationFolder} {link}"
 vidble:
-	regex: ^(https?:\/\/)?(www\.)?vidble\.com\/.*$
-	executionFormat: "./scripts/vidble/vidble.sh {link} {destinationFolder}"
+    regex: ^(https?:\/\/)?(www\.)?vidble\.com\/.*$
+    executionFormat: "./scripts/vidble/vidble.sh {link} {destinationFolder}"
 gfycat:
-	regex: ^(https?:\/\/)?(giant\.|www\.)?gfycat\.com/.*$
-	executionFormat: "./scripts/gfycat/gfycat.sh {link} {destinationFolder}"
+    regex: ^(https?:\/\/)?(giant\.|www\.)?gfycat\.com/.*$
+    executionFormat: "./scripts/gfycat/gfycat.sh {link} {destinationFolder}"
 vidme:
-	regex: ^(https?:\/\/)?(www\.)?vid\.me\/.*$
-	executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
+    regex: ^(https?:\/\/)?(www\.)?vid\.me\/.*$
+    executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
 videobam:
-	regex: ^(https?:\/\/)?(www\.)?videobam\.com\/.*$
-	executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
+    regex: ^(https?:\/\/)?(www\.)?videobam\.com\/.*$
+    executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
 youtube:
-	regex: ^(https?:\/\/)?(www\.)?youtube\.com\/.*$
-	executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
+    regex: ^(https?:\/\/)?(www\.)?youtube\.com\/.*$
+    executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
 xhamster:
-	regex: ^(https?:\/\/)?(www\.)?xhamster\.com\/.*$
-	executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
+    regex: ^(https?:\/\/)?(www\.)?xhamster\.com\/.*$
+    executionFormat: "./scripts/youtube-dl/youtube-dl {link} -o '{destinationFolder}/%(title)s-%(id)s.%(ext)s'"
 imgflip:
-	regex: ^(https?:\/\/)?(www\.|i\.)?imgflip\.com\/.*$
-	executionFormat: "./scripts/imgflip/imgflip.sh {link} {destinationFolder}"
+    regex: ^(https?:\/\/)?(www\.|i\.)?imgflip\.com\/.*$
+    executionFormat: "./scripts/imgflip/imgflip.sh {link} {destinationFolder}"
 tinypic:
-	regex: ^(https?:\/\/)?(.*\.)?tinypic\.com\/.*$
-	executionFormat: "./scripts/tinypic/tinypic.sh {link} {destinationFolder}"
+    regex: ^(https?:\/\/)?(.*\.)?tinypic\.com\/.*$
+    executionFormat: "./scripts/tinypic/tinypic.sh {link} {destinationFolder}"
 makeagif:
-	regex: ^(https?:\/\/)?(www\.|cdn\.)?makeagif\.com\/.*$
-	executionFormat: "./scripts/makeagif/makeagif.sh {link} {destinationFolder}"
+    regex: ^(https?:\/\/)?(www\.|cdn\.)?makeagif\.com\/.*$
+    executionFormat: "./scripts/makeagif/makeagif.sh {link} {destinationFolder}"
 dropbox:
-	regex: ^((https?:\/\/)?(www\.)?dropbox\.com\/.*|(https?:\/\/)?dl\.dropboxusercontent\.com/.*)$
-	executionFormat: "./scripts/dropbox/dropbox.sh {link} {destinationFolder}"
+    regex: ^((https?:\/\/)?(www\.)?dropbox\.com\/.*|(https?:\/\/)?dl\.dropboxusercontent\.com/.*)$
+    executionFormat: "./scripts/dropbox/dropbox.sh {link} {destinationFolder}"
