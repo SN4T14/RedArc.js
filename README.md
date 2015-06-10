@@ -26,8 +26,9 @@ npm install
 Configuring
 ===========
 
-Add users that you want to archive to `users.txt`, **DON'T** start them with `/u/`!
-Add subreddits that you want to archive to `subreddits.txt`, **DON'T** start them with `/r/`!
+Add users that you want to archive to `users.txt`, **DON'T** start them with `/u/`!  
+Add subreddits that you want to archive to `subreddits.txt`, **DON'T** start them with `/r/`!  
+If you want to archive all subreddits, add "all" to `subreddits.txt`.
 
 Executing
 =========
