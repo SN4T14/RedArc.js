@@ -1,6 +1,6 @@
 {
 	"name": "RedArc.js",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "Subreddit archiving tool written in Node.js",
 	"main": "redArc.js",
 	"dependencies": {

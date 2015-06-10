@@ -48,10 +48,6 @@ post_stream.on('new', function(posts) {
 			save = true;
 		}
 
-		if (usersToArchive.indexOf(post.author) !== -1) {
-			save = true;
-		}
-
 		// why do it like this? because when you add more clauses later on, it's still just as easy to read and maintain.
 		if (save) {
 			console.log("[" + moment().format() + "]", "Found post!", post.url, post.author);
