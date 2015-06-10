@@ -40,7 +40,10 @@ post_stream.on('new', function(posts) {
 		var post = posts[i].data; // Damn it, JS, implement proper foreach!
 		var save = false;
 
-		if (subredditsToArchive.indexOf(post.subreddit) !== -1) {
+
+		if (usersToArchive.indexOf(post.author) !== -1) {
+			save = true;
+		} else if (subredditsToArchive.indexOf(post.subreddit) !== -1) { // else if to avoid adding users that already exist in usersToArchive
 			addUser(post.author);
 			save = true;
 		}
