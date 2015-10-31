@@ -70,8 +70,14 @@ Promise.try(function() {
 }).then(function (data) {
 	subredditsToArchive = data.toString().split("\n");
 
+	if (usersToArchive.length === 0 && subredditsToArchive.length === 0) {
+		console.log("Both users.txt and subreddits.txt are empty");
+	}
+
 	postStream.start();
 	console.log("RedArc.js started!");
 }).catch(NoFileError, function (err) {
 	fs.appendFile(err.path, "");
+
+	console.log("Created", err.path + ", you might want to put something in there");
 });
